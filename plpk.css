@@ -1,0 +1,257 @@
+body{
+    background-image: url('IMG-20230813-WA0006.jpg');
+    background-repeat:no-repeat ;
+    font-family: Dancing Script;
+    font-weight: 400;
+    background-size: cover;
+    padding-bottom: 200px;
+    
+}
+
+a{
+    color: rgb(221, 19, 19);
+   
+    font-size: larger;
+    text-decoration:none ;
+    
+}
+
+html{
+    
+    height: 100%;
+    
+}
+
+a:hover{
+    color: blueviolet;
+    font-size: medium;
+    opacity: 1;
+}
+a:visited{
+    color:rgb(185, 185, 25);
+    text-decoration:none ;
+    font-size: medium;
+
+}
+p{
+    color: #000;
+}
+.crisscross{
+padding-right: 20;
+background-color: black;
+}
+.cont{
+    position: absolute;
+   /* width: 300px;
+    height: 300px;
+    */
+    height: 40%;
+    width: 30%;
+    overflow:hidden;
+    border: 3px solid rgba(54, 53, 53, 0.445);
+    left:35%;
+   opacity: 0.9;
+}
+.wr{
+   
+   
+    display: flex;
+    animation: slide 25s infinite;
+}
+
+
+.slide{
+    /*
+    height:580px;
+    width: 300px;
+
+    */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    40%{
+        transform: translateX(-200%);
+    }
+    60%{
+        transform: translateX(-300%);
+    }
+    80%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(-500%);
+    }
+    
+}
+
+
+
+.div{
+    width:1400px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    bottom:-1400px;
+  /* background-image:url('tech.jpg');
+    background-repeat: no-repeat;
+    */
+    opacity: 0.9;
+     
+}
+.navtitle{
+    bottom: -1150px;
+    position: absolute;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: rgb(62, 107, 165);
+    left: 500px;
+}
+
+.div1{
+    opacity: 0;
+}
+
+.nav2{
+    opacity: 0;
+}
+
+.nav3{
+    opacity: 0;
+}
+
+.header{
+    position: absolute;
+    font-size: 100px;
+    top:600px;
+    left: 200px;
+    color: aliceblue;
+}
+a{
+    margin: 10px;
+    opacity: 0.8;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    bottom: -1300px;
+}
+
+
+
+
+/*@media(max-width:600px){
+    body{
+        font-size:20px;
+       
+    }
+    .header{
+        font-size: 30px;
+        
+        top: 90px;
+        left:90px;
+    }
+    .navtitle{
+        position:absolute ;
+        font-size: 30px;
+        top:500px;
+        left:100px;
+    }
+    .nav3{
+        opacity: 0;
+    }
+
+    .logo{
+        opacity: 0;}
+   
+.div{
+    
+    opacity: 0;
+}
+
+.cont{
+    width: 25%;
+    height: 20%;
+}
+.div1{
+    position: absolute;
+    opacity: 0.9;
+    top: 500px;
+    left: 0;
+}
+.nav2{
+    position: absolute;
+    opacity: 0.8;
+    top:550px;
+}
+   
+}
+*/
+@media(max-width:1000px){
+   
+    .header{
+        position: absolute;
+        font-size: 70px;
+        
+        top: 800px;
+        left:20px;
+    }
+    .navtitle{
+        position:absolute ;
+        bottom: 40px;
+        position: absolute;
+        font-size: 40px;
+        font-family: Roboto;
+        font-weight: bold;
+        color: rgb(62, 107, 165);
+        left: 300px;
+    }
+
+    
+
+    
+
+
+.div{
+    width:1400px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    bottom:-200px;
+    
+    
+}
+
+.cont{
+    width: 25%;
+    height: 20%;
+}
+/*.div1{
+    position: absolute;
+    opacity: 0.9;
+    top: 300px;
+    left: 0;
+    
+}
+*/
+.nav{
+    position: absolute;
+    display: flex;
+    bottom: -100px;
+
+}
+.cont{
+    width: 40%;
+    height: 15%;
+    left :55%;
+}
+}
